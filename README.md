@@ -51,3 +51,4 @@ RegisterNumber: 24900073
 ![Screenshot 2024-12-24 115001](https://github.com/user-attachments/assets/56b65516-daec-4a68-9a13-5479f598d555)
 
 **RESULTS**
+The 4-bit synchronous up-counter was successfully implemented using Verilog in Quartus Prime. The functionality was validated by simulating the counter, which correctly counted up from 0000 to 1111 in binary, incrementing by 1 on each clock pulse. The synchronous nature of the counter ensured that all flip-flops were clocked simultaneously, with each flip-flop toggling based on the state of the preceding flip-flops. The output sequence followed the expected counting pattern, confirming the correct operation of the 4-bit synchronous up-counter.
